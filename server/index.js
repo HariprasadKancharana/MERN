@@ -18,8 +18,12 @@ async function StartServer(){
   })
   }
   function TESTING(){
+    return "hiii";
+  }
+  function test2(){
     return 1;
   }
   TESTING();
+  test2();
   StartServer();
   
